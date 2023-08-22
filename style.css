@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Rubik+Vinyl&family=Rubik:ital,wght@1,500;1,600;1,800&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Edu Sa Edu Sa Beginner;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.div label {
+    font-weight: bold;
+}
+
+.div input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    margin-right: 10px;
+}
+
+#personsList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#personsList li {
+    margin-bottom: 10px;
+}
+
+#stats {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+
+#addPerson {
+    display: block;
+    position: absolute;
+    margin-left: 40%;
+
+}
+
+#calcStats {
+    display: block;
+    position: absolute;
+    margin-left: 50%;
+
+}
+
+h2 {
+    font-family: Edu Sa Edu Sa Beginner, cursive;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+
