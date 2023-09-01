@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #032507;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: whitesmoke;
+    margin: 20px;
+
+}
+
+.firstLayer {
+    background-color: rgba(255, 255, 255, 0.87);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(32, 37, 33, 0.74);
+    padding: 20px;
+    max-width: 450px;
+    max-height: 600px;
+    margin: 0 auto;
+    font-size: 1.5em;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+
+label {
+    margin-bottom: 5px;
+}
+
+select,
+input{
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #148d30;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4fd087;
+}
+
+h3#resultOfConver {
+    text-align: center;
+    margin-top: 15px;
+}
+
+@media (max-width: 600px) {
+    .firstLayer {
+        max-width: 100%;
+    }
+}
