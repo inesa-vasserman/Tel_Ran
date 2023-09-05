@@ -1,72 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Rubik+Vinyl&family=Rubik:ital,wght@1,500;1,600;1,800&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
 body {
+    font-family: 'Kanit', sans-serif;
     margin: 0;
+    padding: 0;
+    background-color: #032507;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: whitesmoke;
+    margin: 20px;
+
+}
+
+.firstLayer {
+    background-color: rgba(255, 255, 255, 0.87);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(32, 37, 33, 0.74);
     padding: 20px;
-    font-family: Edu Sa Edu Sa Beginner;
+    max-width: 450px;
+    max-height: 600px;
+    margin: 0 auto;
+    font-size: 1.5em;
 }
 
-h2 {
-    margin-bottom: 20px;
+.inputs {
+    display: flex;
+    flex-direction: column;
 }
 
-.div {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    margin-bottom: 20px;
+
+label {
+    margin-bottom: 5px;
 }
 
-.div label {
-    font-weight: bold;
-}
-
-.div input[type="text"] {
-    width: 100%;
-    padding: 5px;
+select,
+input{
+    padding: 8px;
+    margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
-.btn {
-    margin-right: 10px;
+button {
+    padding: 10px 20px;
+    background-color: #148d30;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-#personsList {
-    list-style-type: none;
-    padding: 0;
+button:hover {
+    background-color: #4fd087;
 }
 
-#personsList li {
-    margin-bottom: 10px;
+h3#resultOfConver {
+    text-align: center;
+    margin-top: 15px;
 }
 
-#stats {
-    margin-top: 20px;
-    border-top: 1px solid #ccc;
-    padding-top: 20px;
+@media (max-width: 600px) {
+    .firstLayer {
+        max-width: 100%;
+    }
 }
-
-
-#addPerson {
-    display: block;
-    position: absolute;
-    margin-left: 40%;
-
-}
-
-#calcStats {
-    display: block;
-    position: absolute;
-    margin-left: 50%;
-
-}
-
-h2 {
-    font-family: Edu Sa Edu Sa Beginner, cursive;
-    font-weight: bold;
-    margin-left: 20px;
-}
-
-
