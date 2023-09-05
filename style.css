@@ -1,72 +1,98 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Rubik+Vinyl&family=Rubik:ital,wght@1,500;1,600;1,800&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
 body {
     margin: 0;
-    padding: 20px;
-    font-family: Edu Sa Edu Sa Beginner;
-}
-
-h2 {
-    margin-bottom: 20px;
-}
-
-.div {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    margin-bottom: 20px;
-}
-
-.div label {
-    font-weight: bold;
-}
-
-.div input[type="text"] {
-    width: 100%;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.btn {
-    margin-right: 10px;
-}
-
-#personsList {
-    list-style-type: none;
     padding: 0;
+    background-color: white;
+}
+header {
+    width: 100%;
+    height: 30%;
+    background: #1f4775;
+}
+h1 {
+    text-align: center;
+    font-size: 2em;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+
+
 }
 
-#personsList li {
+.firstLayer {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 20px 20px;
+    max-width: 800px;
+    max-height: 800px;
+    margin: 70px ;
+    font-size: 1.5em;
+    border: solid;
+
+}
+
+.inputs {
+    width: 100%;
+
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+select {
+    width: 65%;
     margin-bottom: 10px;
 }
 
-#stats {
-    margin-top: 20px;
-    border-top: 1px solid #ccc;
-    padding-top: 20px;
+.text {
+    width: 100%;
+    font-size: 0.5em;
 }
 
+h3#resultOfConver {
+    text-align: center;
+    margin-top: 15px;
+}
 
-#addPerson {
-    display: block;
+.second-link {
+    color: white;
+    background-color: #1f4775;
+    width: 546px;
+}
+.first-link {
+    color: black;
+}
+
+@media (max-width: 600px) {
+    .firstLayer {
+        max-width: 100%;
+    }
+}
+
+#ratesToday {
+    top: 15.5%;
     position: absolute;
-    margin-left: 40%;
+    right: 25%;
+    border: solid;
+    display: flex;
+    width: 300px;
+    flex-direction: column;
 
 }
 
-#calcStats {
-    display: block;
-    position: absolute;
-    margin-left: 50%;
+h4 {
+    background-color: #1f4775;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    font-size: 0.8em;
 
 }
 
-h2 {
-    font-family: Edu Sa Edu Sa Beginner, cursive;
-    font-weight: bold;
-    margin-left: 20px;
+p {
+    margin: 10px;
+    word-spacing: 170px;
+    text-align: justify;
+    width: 100%;
 }
-
-
